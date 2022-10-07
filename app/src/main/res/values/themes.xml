@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Quiz" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#CA16CA</item>
+        <item name="colorPrimaryVariant">#800080</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">#7E7E7E</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+
+<!--   Custom styles-->
+    <style name="optionTextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/extra_large_margin</item>
+        <item name="android:background">@drawable/option_background</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/large_size</item>
+
+
+    </style>
+    <style name="myButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/extra_large_margin</item>
+        <item name="android:textSize">@dimen/normal_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/btn_text_color</item>
+    </style>
+
+
+
+
+    <style name="land_option_textView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/landscape_option_height</item>
+        <item name="android:layout_marginStart">@dimen/medium_margin</item>
+        <item name="android:layout_marginTop">@dimen/extra_large_margin</item>
+        <item name="android:background">@drawable/option_background</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/large_size</item>
+    </style>
+
+    <style name="land_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/normal_margin</item>
+        <item name="android:textSize">@dimen/normal_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/btn_text_color</item>
+    </style>
+</resources>

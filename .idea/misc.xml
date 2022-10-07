@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/AndroidStudioProjects/Quizo/app/src/main/res/layout-land/fragment_category.xml" value="0.3125" />
+        <entry key="..\:/Android/AndroidStudioProjects/Quizo/app/src/main/res/layout-land/fragment_question_screen.xml" value="0.3125" />
+        <entry key="..\:/Android/AndroidStudioProjects/Quizo/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android/AndroidStudioProjects/Quizo/app/src/main/res/layout/category_look.xml" value="0.25" />
+        <entry key="..\:/Android/AndroidStudioProjects/Quizo/app/src/main/res/layout/fragment_category.xml" value="0.25" />
+        <entry key="..\:/Android/AndroidStudioProjects/Quizo/app/src/main/res/layout/fragment_question_screen.xml" value="0.24615384615384617" />
+        <entry key="..\:/Android/AndroidStudioProjects/Quizo/app/src/main/res/layout/fragment_scrore_screen.xml" value="0.25" />
+        <entry key="..\:/Android/AndroidStudioProjects/Quizo/app/src/main/res/layout/fragment_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/drawable/correct_option_background.xml" value="0.1825" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/drawable/option_background.xml" value="0.1645" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/drawable/question_background.xml" value="0.1825" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/drawable/replay_btn_background.xml" value="0.1825" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/drawable/wave.xml" value="0.104" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/drawable/wrong_answer_background.xml" value="0.1825" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/font/beth_ellen.xml" value="0.2625" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/layout/category_look.xml" value="0.1" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/layout/fragment_category.xml" value="0.2" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/layout/fragment_question_screen.xml" value="0.176" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/layout/fragment_scrore_screen.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/layout/fragment_splash_screen.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.104" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_latest.xml" value="0.104" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_latest_round.xml" value="0.104" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_new.xml" value="0.104" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_new_round.xml" value="0.104" />
+        <entry key="..\:/Users/Shobhit/AndroidStudioProjects/Quizo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.104" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

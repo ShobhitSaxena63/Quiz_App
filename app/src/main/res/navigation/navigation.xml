@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/categoryScreen">
+    <fragment
+        android:id="@+id/categoryScreen"
+        android:name="com.shobhit63.quizo.ui.category.Category"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" >
+        <action
+            android:id="@+id/action_category2_to_questionScreen"
+            app:destination="@id/questionScreen"
+            app:enterAnim="@anim/question_screen_anim"
+            app:exitAnim="@anim/my_slide_left"
+            app:popEnterAnim="@anim/my_pop_enter"
+            app:popExitAnim="@anim/my_pop_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionScreen"
+        android:name="com.shobhit63.quizo.ui.question.QuestionScreen"
+        android:label="fragment_question_screen"
+        tools:layout="@layout/fragment_question_screen" >
+        <action
+            android:id="@+id/action_questionScreen_to_scroreScreen"
+            app:destination="@id/scroreScreen"
+            app:enterAnim="@anim/question_screen_anim"
+            app:exitAnim="@anim/my_slide_left"
+            app:popEnterAnim="@anim/my_pop_enter"
+            app:popExitAnim="@anim/my_pop_exit"
+            app:popUpTo="@id/categoryScreen" />
+        <action
+            android:id="@+id/action_questionScreen_to_categoryScreen"
+            app:destination="@id/categoryScreen"
+            app:enterAnim="@anim/my_pop_enter"
+            app:popUpTo="@id/categoryScreen"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="category"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/scroreScreen"
+        android:name="com.shobhit63.quizo.ui.score.ScoreScreen"
+        android:label="fragment_scrore_screen"
+        tools:layout="@layout/fragment_scrore_screen" >
+        <action
+            android:id="@+id/action_scroreScreen_to_category2"
+            app:destination="@id/categoryScreen"
+            app:enterAnim="@anim/question_screen_anim"
+            app:exitAnim="@anim/my_slide_left"
+            app:popEnterAnim="@anim/my_pop_enter"
+            app:popExitAnim="@anim/my_pop_enter"
+            app:popUpTo="@id/categoryScreen"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="score"
+            app:argType="integer" />
+        <argument
+            android:name="category"
+            app:argType="string" />
+    </fragment>
+</navigation>

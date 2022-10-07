@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quizal</string>
+    <string name="choose_topic">Choose Topic</string>
+    <string name="quit">Quit</string>
+    <string name="next">Next</string>
+    <string name="timer_text">Done</string>
+    <string name="timer_value">%1$ds</string>
+    <string name="final_score">%1$d/10</string>
+    <string name="well_done">Well Done 👍</string>
+    <string name="try_again">Try again</string>
+    <string name="keep_learning">Keep Learning</string>
+    <string name="excellent">Excellent 👌😀</string>
+    <string name="superb">Superb🥳</string>
+    <string name="finish">Finish</string>
+    <string name="your_score">Your Score</string>
+    <string name="best_score">Best Score:</string>
+</resources>
+
+
+
+<!-- <   string name="welcome_messages">Hello, %1$s! You have %2$d new messages.</string>-->
+<!--    using getString(R.string.welcome_message, "Test", 0);-->

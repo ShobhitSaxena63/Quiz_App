@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name=  "ultra_large_margin">64dp</dimen>
+    <dimen name = "landscape_option_height">44dp</dimen>
+    <dimen name=  "extra_large_margin">32dp</dimen>
+    <dimen name = "large_margin">24dp</dimen>
+    <dimen name = "normal_margin">16dp</dimen>
+    <dimen name = "medium_margin">8dp</dimen>
+    <dimen name = "small_margin">4dp</dimen>
+
+    //For Text
+    <dimen name=  "extra_extra_large_size">35sp</dimen>
+    <dimen name=  "extra_large_size">32sp</dimen>
+    <dimen name = "large_size">24sp</dimen>
+    <dimen name = "number_counter">20sp</dimen>
+    <dimen name = "normal_size">16sp</dimen>
+    <dimen name = "medium_size">8sp</dimen>
+    <dimen name = "small_size">4sp</dimen>
+    <dimen name="question_text_size">26sp</dimen>
+</resources>

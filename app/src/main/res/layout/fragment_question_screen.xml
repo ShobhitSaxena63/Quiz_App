@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/purple_bg"
+    tools:context=".ui.question.QuestionScreen">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/question_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ques_number" />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/question_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/view3"
+            app:layout_constraintEnd_toEndOf="@+id/view3"
+            app:layout_constraintStart_toStartOf="@+id/view3"
+            app:layout_constraintTop_toTopOf="@+id/view3"
+            tools:text="What is the capital of India ?" />
+
+        <TextView
+            android:id="@+id/option_one"
+            style="@style/optionTextView"
+            app:layout_constraintEnd_toEndOf="@+id/question"
+            app:layout_constraintStart_toStartOf="@+id/view3"
+            app:layout_constraintTop_toBottomOf="@+id/view3"
+            tools:text="Chennai" />
+
+        <TextView
+            android:id="@+id/option_two"
+            style="@style/optionTextView"
+            app:layout_constraintEnd_toEndOf="@+id/option_one"
+            app:layout_constraintStart_toStartOf="@+id/option_one"
+            app:layout_constraintTop_toBottomOf="@+id/option_one"
+            tools:text="Lucknow" />
+
+        <TextView
+            android:id="@+id/option_three"
+            style="@style/optionTextView"
+            app:layout_constraintEnd_toEndOf="@+id/option_two"
+            app:layout_constraintStart_toStartOf="@+id/option_two"
+            app:layout_constraintTop_toBottomOf="@+id/option_two"
+            tools:text="Agartala" />
+
+        <TextView
+            android:id="@+id/option_four"
+            style="@style/optionTextView"
+            app:layout_constraintEnd_toEndOf="@+id/option_three"
+            app:layout_constraintStart_toStartOf="@+id/option_three"
+            app:layout_constraintTop_toBottomOf="@+id/option_three"
+            tools:text="New Delhi" />
+
+        <Button
+            android:id="@+id/quit_btn"
+            style="@style/myButtonStyle"
+            android:layout_marginEnd="16dp"
+            android:text="@string/quit"
+            android:minHeight="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/nextbtn"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="@+id/option_four"
+            app:layout_constraintTop_toBottomOf="@+id/option_four" />
+
+        <Button
+            android:id="@+id/nextbtn"
+            style="@style/myButtonStyle"
+            android:layout_marginStart="@dimen/normal_margin"
+            android:text="@string/next"
+            android:minHeight="60dp"
+
+            app:layout_constraintBaseline_toBaselineOf="@+id/quit_btn"
+            app:layout_constraintEnd_toEndOf="@+id/option_four"
+            app:layout_constraintStart_toEndOf="@+id/quit_btn" />
+<!--        android:backgroundTint="@color/wave_match"-->
+        <TextView
+            android:id="@+id/ques_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="1/10" />
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/normal_margin"
+            android:layout_marginTop="@dimen/normal_margin"
+            android:layout_marginEnd="@dimen/normal_margin"
+            android:layout_marginBottom="@dimen/normal_margin"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/quit_btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/option_four"
+            tools:text="30s" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
